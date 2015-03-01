@@ -1,0 +1,12 @@
+Ext.define('Sencha.view.PresidentDetail', {
+	extend: 'Ext.Panel',
+	xtype: 'presidentdetail',
+	config: {
+		title: 'Details',
+		styleHtmlContent: true,
+		scrollable: 'vertical',
+		tpl: [
+			'This is an info page about <b>{firstName} {lastName}</b>!'
+		]
+	}	
+});
